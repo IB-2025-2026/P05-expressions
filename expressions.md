@@ -31,7 +31,7 @@ Antes de comenzar a trabajar ahora con Git, asegúrese de haber añadido la clav
 ```
 $ git clone git@github.com:IB-2025-2026/P05-expressions.git <dir>
 ```
-sustituyendo `<dir>` por el nombre que quiera dar al directorio en el que se realizará la copia. El primer parámetro después de `clone` es la dirección del repositorio, que ha de ser público para poder copiarlo. Una vez ejecutado el comando, acceda al directorio que acaba de crear y examine el contenido del mismo.
+sustituyendo `<dir>` por el nombre que quiera dar al directorio en el que se realizará la copia (puede dejarlo en blanco para usar el mismo nombre del repositorio). El primer parámetro después de `clone` es la dirección del repositorio, que ha de ser público para poder copiarlo. Una vez ejecutado el comando, acceda al directorio que acaba de crear y examine el contenido del mismo.
 
 GitHub utiliza profusamente ficheros de texto con formato Markdown, que suelen tener la extensión `.md` El fichero `README.md` es un fichero de texto (compruébelo con el comando `file`) en formato Markdown. Markdown es un lenguaje de marcas que permite aplicar formato (negrita, itálicas, imágenes, listas, etc.) a un fichero de texto. Este texto que está Ud. leyendo (`expressions.md`) también está escrito en formato Markdown y es uno de los que ha descargado. Pruebe a abrirlo con vim o `less` para ver qué aspecto tiene.
 
@@ -143,4 +143,4 @@ variable1 = static_cast<int>(variable2);
 
 4. [C++ Tutor](http://pythontutor.com/cpp.html#mode=edit) es una herramienta que, a través de una interfaz web, permite "visualizar" la ejecución de programas escritos en C++ (también tiene soporte para otros lenguajes). Experimente con la herramienta y ejecute con ella los programas que haya estudiado en clase, así como todos los programas correspondientes a los ejercicios anteriores. Pruebe a usar la herramienta con el fichero `references_and_pointers.cc` incluido en el repositorio que ha descargado.
 
-5.- Escriba un programa que solucione el problema [P48107](https://jutge.org/problems/P48107) y evalúe su solución utilizando Jutge. Preste especial atención a las condiciones que impone el enunciado y recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista del funcionamiento. Su código ha de cumplir adicionalmente con los requisitos de formato y estilo.
+5. Escriba un programa que solucione el problema [P48107](https://jutge.org/problems/P48107) y evalúe su solución utilizando Jutge. Preste especial atención a las condiciones que impone el enunciado y recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista del funcionamiento. Su código ha de cumplir adicionalmente con los requisitos de formato y estilo.
