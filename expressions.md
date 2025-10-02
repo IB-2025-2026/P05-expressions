@@ -37,7 +37,7 @@ GitHub utiliza profusamente ficheros de texto con formato Markdown, que suelen t
 
 El formato Markdown fue ideado para elaborar textos cuyo destino iba a ser la web, con más rapidez y sencillez que si se empleara HTML. No es necesario que lo aprenda para esta asignatura, pero si tiene interés en ello, [esta referencia](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo) puede servirle de introducción. [Este tutorial](https://guides.github.com/features/mastering-markdown/) y el editor web [StackEdit](https://stackedit.io/) también pueden resultarle útiles si desea conocer el lenguaje en mayor profundidad.
 
-En este punto ya estaría todo listo para que acceda al directorio de trabajo (que creó al clonar el repositiorio) y desarrolle en él todos los ejercicios de esta práctica. Dentro de ese directorio cree subdirectorios para cada uno de los ejercicios de la práctica. Ahora todo el trabajo ha de realizarlo de la forma habitual, editando sus programas dentro de ese
+En este punto ya estaría todo listo para que acceda al directorio de trabajo (que creó al clonar el repositorio) y desarrolle en él todos los ejercicios de esta práctica. Dentro de ese directorio cree subdirectorios para cada uno de los ejercicios de la práctica. Ahora todo el trabajo ha de realizarlo de la forma habitual, editando sus programas dentro de ese
 directorio y realizando todas las pruebas que considere oportunas.
 
 En prácticas y asignaturas futuras a menudo trabajará Ud. con repositorios privados en los que puede mantener una copia de todo su trabajo. Cuando éste sea el caso, después de cada sesión de trabajo debe recordar "subir" sus cambios a la nube de GitHub - tenga en cuenta que para esta práctica no podrá hacerlo, ya que el repositorio que ha clonado no le pertenece aunque sea público. Para actualizar el repositorio remoto, la secuencia habitual de comandos `git` a ejecutar suele ser la siguiente:
@@ -70,7 +70,7 @@ En la sección dedicada a los [Comentarios](https://google.github.io/styleguide/
 
 Ponga en práctica esas reglas en todos los programas que desarrolle. De forma paulatina se irá estudiando con mayor profundidad esa guía. Se enumeran a continuación algunas cuestiones relativas al formato (aspecto) del código que en la mayoría de los casos se reflejan en diferentes puntos de la guía:
 
-* Todos los identificadores (de diferentes entidades: variables, funciones, clases, etc.) que utilice en su código han de ser significativos. Es una mala práctica el uso de identificadores de un solo caracter salvo para casos muy concretos.
+* Todos los identificadores (de diferentes entidades: variables, funciones, clases, etc.) que utilice en su código han de ser significativos. Es una mala práctica el uso de identificadores de un solo carácter salvo para casos muy concretos.
 * Asimismo deberán ser significativos los nombres que elija para sus ficheros y directorios, de modo que por ejemplo es preferible el nombre de fichero `P48107-integer-division-and-reminder.cc` que el nombre `P48107.cc`
 * Todos los ficheros de código de un proyecto han de contener un bloque de comentarios prólogo donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
 * Un operador binario es aquél que opera dos operandos para producir como resultado un nuevo valor. Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ... A ambos lados de un operador binario ha de haber siempre un espacio. (Véase [Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace)). Así siempre se escribirá
@@ -81,7 +81,7 @@ energy = mass * kLightSpeed * kLightSpeed;
 ```cpp
 energy=mass*kLightSpeed*kLightSpeed;
 ```
-* Deje siempre un espacio antes del caracter de llave abierta (`{` *curly brace*), así como después de un inicio de comentario (`//`):
+* Deje siempre un espacio antes del carácter de llave abierta (`{` *curly brace*), así como después de un inicio de comentario (`//`):
 ```cpp
 int main() {  // Open braces should always have a space before them
 ```
